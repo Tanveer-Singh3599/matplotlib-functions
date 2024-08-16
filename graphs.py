@@ -1,18 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# bar(col1, col2, label, xlabel, ylabel, title, color)
-
-# multi_bar(x, y, x1, y1, label1, label2, xlabel, ylabel, title, color1, color2)
-
-#histogram(data_list, bins, color, xlabel, ylabel, title, label=None, histtype='bar', edgecolor='black', axvline_value=None, axvline_label=None, axvline_color=None, axvline_width=None)
-
-#pie(slices_list, labels_list, colors_list, title, start_angle = 0, explode=None, shadow=True)
-
-#line(x, y, xlabel, ylabel, label=None, title=None, color='black')
-
-#scatter(x, y, xlabel, ylabel, title, label=None, s=10, linewidth=0, edgecolor=None, c=None, cmap=None, cbar_label=None, log=None)
-
 #Function for bar graph.
 def bar(col1, col2, label, xlabel, ylabel, title, color, width=0.7):
     plt.bar(col1, col2, label=label, color=color, width=width)
